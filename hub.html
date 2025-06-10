@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kindred Family Hub</title>
+    <link rel="stylesheet" href="style.css"> <!-- We can reuse the same style for now -->
+    <style>
+        /* A few extra styles just for the hub */
+        .container { max-width: 800px; margin: 40px auto; }
+        textarea { width: 100%; min-height: 150px; font-size: 1.2rem; padding: 10px; }
+        select, input[type="password"], button { width: 100%; padding: 15px; font-size: 1.2rem; margin-top: 15px; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Kindred Family Hub</h1>
+        <p>Add a new message for Mom below.</p>
+
+        <form action="submit_message.php" method="POST">
+            <label for="message">New Message:</label>
+            <textarea id="message" name="message" required></textarea>
+
+            <label for="caregiver">Your Name:</label>
+            <select id="caregiver" name="caregiver_id" required>
+                <!-- This will be populated with names from our database -->
+                <option value="1">Michael</option>
+                <option value="2">Susan</option>
+            </select>
+
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="hub_password" required>
+
+            <button type="submit">Submit New Message</button>
+        </form>
+    </div>
+</body>
+</html>
