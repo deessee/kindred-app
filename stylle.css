@@ -1,0 +1,58 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    background-color: #FDF6E3; /* A warm, calming beige */
+    color: #4A4A4A; /* A soft, dark gray, not harsh black */
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    padding: 2rem;
+    box-sizing: border-box;
+}
+
+.header h1 {
+    font-size: 3.5rem; /* Large and clear */
+    font-weight: 600;
+    text-align: center;
+}
+
+.main-content {
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-content p {
+    font-size: 2.8rem; /* Very large for readability */
+    line-height: 1.6;
+    text-align: center;
+    max-width: 80%;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 1rem;
+}
+
+#interaction-button {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    border: none;
+    background-color: #26A69A; /* A friendly teal */
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#interaction-button:hover {
+    background-color: #00796B;
+}
