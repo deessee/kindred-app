@@ -20,5 +20,58 @@
             <button id="interaction-button" aria-label="Talk to Kindred"></button>
         </div>
     </div>
+    <!-- ... (rest of your body tag) ... -->
+    </div>
+
+    <script>
+        // --- Elements ---
+        const timeDisplay = document.getElementById('time-display');
+        const messageDisplay = document.getElementById('message-display');
+
+        // --- Function to get the latest message ---
+        async function fetchLatestMessage() {
+            // This URL will need to be the actual URL to your api.php file once it's on SiteGround
+            // For now, it won't work locally, but we are preparing it.
+            const apiUrl = 'https://kindred.hear2learn.com/api.php'; 
+
+            try {
+                const response = await fetch(apiUrl);
+                const data = await response.json();
+
+                // Update the message display with the content from the database
+                if (data.content) {
+                    messageDisplay.textContent = data.content;
+                }
+
+            } catch (error) {
+                console.error("Could not fetch the message:", error);
+                // Display a fallback message if something goes wrong
+                messageDisplay.textContent = "I'm having a little trouble fetching the latest message, but I'm thinking of you.";
+            }
+        }
+
+        // --- Function to update the time display ---
+        function updateTime() {
+            const now = new Date();
+            const day = now.toLocaleDateString('en-US', { weekday: 'long' });
+            const hour = now.getHours();
+            let period = "Morning";
+
+            if (hour >= 12 && hour < 17) {
+                period = "Afternoon";
+            } else if (hour >= 17) {
+                period = "Evening";
+            }
+
+            timeDisplay.textContent = `It is ${day} ${period}`;
+        }
+        
+        // --- Run functions when the page loads ---
+        document.addEventListener('DOMContentLoaded', () => {
+            updateTime();
+            fetchLatestMessage();
+        });
+
+    </script>
 </body>
 </html>
