@@ -1,0 +1,81 @@
+[10-Jun-2025 16:14:02 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'kindreduser'@'localhost' (using password: YES) in /home/customer/www/kindred.hear2learn.com/public_html/api.php:16
+Stack trace:
+#0 /home/customer/www/kindred.hear2learn.com/public_html/api.php(16): mysqli->__construct('localhost', 'kindreduser', Object(SensitiveParameterValue), 'kindred_db')
+#1 {main}
+  thrown in /home/customer/www/kindred.hear2learn.com/public_html/api.php on line 16
+[10-Jun-2025 16:14:55 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'kindreduser'@'localhost' (using password: YES) in /home/customer/www/kindred.hear2learn.com/public_html/api.php:16
+Stack trace:
+#0 /home/customer/www/kindred.hear2learn.com/public_html/api.php(16): mysqli->__construct('localhost', 'kindreduser', Object(SensitiveParameterValue), 'kindred_db')
+#1 {main}
+  thrown in /home/customer/www/kindred.hear2learn.com/public_html/api.php on line 16
+[10-Jun-2025 16:32:46 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'your_db_user'@'localhost' (using password: YES) in /home/customer/www/kindred.hear2learn.com/public_html/hub.php:37
+Stack trace:
+#0 /home/customer/www/kindred.hear2learn.com/public_html/hub.php(37): mysqli->__construct('localhost', 'your_db_user', Object(SensitiveParameterValue), 'your_db_name')
+#1 {main}
+  thrown in /home/customer/www/kindred.hear2learn.com/public_html/hub.php on line 37
+[10-Jun-2025 16:33:02 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'kindreduser'@'localhost' (using password: YES) in /home/customer/www/kindred.hear2learn.com/public_html/api.php:16
+Stack trace:
+#0 /home/customer/www/kindred.hear2learn.com/public_html/api.php(16): mysqli->__construct('localhost', 'kindreduser', Object(SensitiveParameterValue), 'kindred_db')
+#1 {main}
+  thrown in /home/customer/www/kindred.hear2learn.com/public_html/api.php on line 16
+[10-Jun-2025 16:41:31 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'kindreduser'@'localhost' (using password: YES) in /home/customer/www/kindred.hear2learn.com/public_html/api.php:16
+Stack trace:
+#0 /home/customer/www/kindred.hear2learn.com/public_html/api.php(16): mysqli->__construct('localhost', 'kindreduser', Object(SensitiveParameterValue), 'kindred_db')
+#1 {main}
+  thrown in /home/customer/www/kindred.hear2learn.com/public_html/api.php on line 16
+[10-Jun-2025 18:36:24 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'kindreduser'@'localhost' (using password: YES) in /home/customer/www/kindred.hear2learn.com/public_html/api.php:16
+Stack trace:
+#0 /home/customer/www/kindred.hear2learn.com/public_html/api.php(16): mysqli->__construct('localhost', 'kindreduser', Object(SensitiveParameterValue), 'kindred_db')
+#1 {main}
+  thrown in /home/customer/www/kindred.hear2learn.com/public_html/api.php on line 16
+[10-Jun-2025 18:36:35 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'kindreduser'@'localhost' (using password: YES) in /home/customer/www/kindred.hear2learn.com/public_html/api.php:16
+Stack trace:
+#0 /home/customer/www/kindred.hear2learn.com/public_html/api.php(16): mysqli->__construct('localhost', 'kindreduser', Object(SensitiveParameterValue), 'kindred_db')
+#1 {main}
+  thrown in /home/customer/www/kindred.hear2learn.com/public_html/api.php on line 16
+[10-Jun-2025 18:37:19 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'kindreduser'@'localhost' (using password: YES) in /home/customer/www/kindred.hear2learn.com/public_html/api.php:16
+Stack trace:
+#0 /home/customer/www/kindred.hear2learn.com/public_html/api.php(16): mysqli->__construct('localhost', 'kindreduser', Object(SensitiveParameterValue), 'kindred_db')
+#1 {main}
+  thrown in /home/customer/www/kindred.hear2learn.com/public_html/api.php on line 16
+[10-Jun-2025 19:13:23 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'kindreduser'@'localhost' (using password: YES) in /home/customer/www/kindred.hear2learn.com/public_html/api.php:16
+Stack trace:
+#0 /home/customer/www/kindred.hear2learn.com/public_html/api.php(16): mysqli->__construct('localhost', 'kindreduser', Object(SensitiveParameterValue), 'kindred_db')
+#1 {main}
+  thrown in /home/customer/www/kindred.hear2learn.com/public_html/api.php on line 16
+[10-Jun-2025 19:13:36 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'kindreduser'@'localhost' (using password: YES) in /home/customer/www/kindred.hear2learn.com/public_html/api.php:16
+Stack trace:
+#0 /home/customer/www/kindred.hear2learn.com/public_html/api.php(16): mysqli->__construct('localhost', 'kindreduser', Object(SensitiveParameterValue), 'kindred_db')
+#1 {main}
+  thrown in /home/customer/www/kindred.hear2learn.com/public_html/api.php on line 16
+[10-Jun-2025 19:55:58 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'ufpsf9t9w7trg_kindreduser'@'localhost' (using password: YES) in /home/customer/www/kindred.hear2learn.com/public_html/api.php:16
+Stack trace:
+#0 /home/customer/www/kindred.hear2learn.com/public_html/api.php(16): mysqli->__construct('localhost', 'ufpsf9t9w7trg_k...', Object(SensitiveParameterValue), 'dbgrcokiwsbh3p_...')
+#1 {main}
+  thrown in /home/customer/www/kindred.hear2learn.com/public_html/api.php on line 16
+[10-Jun-2025 19:57:29 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'ufpsf9t9w7trg_kindreduser'@'localhost' (using password: YES) in /home/customer/www/kindred.hear2learn.com/public_html/api.php:16
+Stack trace:
+#0 /home/customer/www/kindred.hear2learn.com/public_html/api.php(16): mysqli->__construct('localhost', 'ufpsf9t9w7trg_k...', Object(SensitiveParameterValue), 'dbgrcokiwsbh3p_...')
+#1 {main}
+  thrown in /home/customer/www/kindred.hear2learn.com/public_html/api.php on line 16
+[10-Jun-2025 20:06:29 UTC] PHP Warning:  Undefined variable $x in /home/customer/www/kindred.hear2learn.com/public_html/db_test.php on line 15
+[10-Jun-2025 20:06:29 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'ufpsf9t9w7trg_kindreduser'@'localhost' (using password: YES) in /home/customer/www/kindred.hear2learn.com/public_html/db_test.php:25
+Stack trace:
+#0 /home/customer/www/kindred.hear2learn.com/public_html/db_test.php(25): mysqli->__construct('localhost', 'ufpsf9t9w7trg_k...', Object(SensitiveParameterValue), 'dbgrcokiwsbh3p_...')
+#1 {main}
+  thrown in /home/customer/www/kindred.hear2learn.com/public_html/db_test.php on line 25
+[10-Jun-2025 22:22:46 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'ufpsf9t9w7trg'@'localhost' to database 'dbgrcokiwsbh3p_kindred_db' in /home/customer/www/kindred.hear2learn.com/public_html/hub.php:37
+Stack trace:
+#0 /home/customer/www/kindred.hear2learn.com/public_html/hub.php(37): mysqli->__construct('localhost', 'ufpsf9t9w7trg', Object(SensitiveParameterValue), 'dbgrcokiwsbh3p_...')
+#1 {main}
+  thrown in /home/customer/www/kindred.hear2learn.com/public_html/hub.php on line 37
+[10-Jun-2025 22:26:17 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'ufpsf9t9w7trg'@'localhost' to database 'dbgrcokiwsbh3p_kindred_db' in /home/customer/www/kindred.hear2learn.com/public_html/hub.php:37
+Stack trace:
+#0 /home/customer/www/kindred.hear2learn.com/public_html/hub.php(37): mysqli->__construct('localhost', 'ufpsf9t9w7trg', Object(SensitiveParameterValue), 'dbgrcokiwsbh3p_...')
+#1 {main}
+  thrown in /home/customer/www/kindred.hear2learn.com/public_html/hub.php on line 37
+[11-Jun-2025 15:11:31 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'ufpsf9t9w7trg'@'localhost' to database 'dbgrcokiwsbh3p_kindred_db' in /home/customer/www/kindred.hear2learn.com/public_html/hub.php:37
+Stack trace:
+#0 /home/customer/www/kindred.hear2learn.com/public_html/hub.php(37): mysqli->__construct('localhost', 'ufpsf9t9w7trg', Object(SensitiveParameterValue), 'dbgrcokiwsbh3p_...')
+#1 {main}
+  thrown in /home/customer/www/kindred.hear2learn.com/public_html/hub.php on line 37

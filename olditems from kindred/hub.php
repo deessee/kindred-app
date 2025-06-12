@@ -25,21 +25,34 @@
 <select id="caregiver" name="caregiver_id" required>
     <option value="" disabled selected>-- Select Your Name --</option>
     <?php
-        // --- TEMPORARY DIAGNOSTIC ---
-        // This forces the server to show us errors.
-        ini_set('display_errors', 1);
-        error_reporting(E_ALL);
-
-        // Now, try to find the config file.
-        require_once 'config.php';
+        // This PHP block will run on the server before the page is sent
+        // --- Configuration ---
+        // NOTE: We have to reconnect to the database here as well.
+        $servername = "localhost";
+        $dbname     = "kindred_db";
+        $username   = "kindreduser"; // e.g., "sg_user_kindred_user"
+        $password   = "Lh1]5ff@r1$x"; // The password you created
 
         // --- Create Connection ---
-        // NOTE: We don't need the credentials here anymore.
         $conn = new mysqli($servername, $username, $password, $dbname);
         if ($conn->connect_error) {
-            // ... the rest of the code is the same ...
+            // Don't die, just show an error in the dropdown
+            echo "<option value=''>Error: Could not connect</option>";
+        } else {
+            // --- Fetch all caregivers ---
+            $sql = "SELECT id, name FROM caregivers ORDER BY name ASC";
+            $result = $conn->query($sql);
+
+            if ($result->num_rows > 0) {
+                // Loop through each caregiver and create an <option> for them
+                while($row = $result->fetch_assoc()) {
+                    echo "<option value='" . $row["id"] . "'>" . $row["name"] . "</option>";
+                }
+            } else {
+                echo "<option value=''>No caregivers found</option>";
+            }
+            $conn->close();
         }
-        //...
     ?>
 </select>
 

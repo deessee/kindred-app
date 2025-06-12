@@ -1,7 +1,10 @@
 <?php
 // --- Configuration ---
-    require_once 'config.php';
-
+$servername = "localhost";
+$dbname     = "kindre_db";
+$username   = "kindreduser";
+$password   = "Lh1]5ff@r1$x"; // IMPORTANT: Change this to your actual password!
+$hub_secret_password = "mableeatsbirds!"; // IMPORTANT: Change this!
 
 // --- Security Check ---
 // First, check if the form was submitted and the password is correct.

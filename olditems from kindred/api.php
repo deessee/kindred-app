@@ -1,6 +1,9 @@
 <?php
 // --- Configuration ---
-require_once 'config.php';
+$servername = "localhost";
+$dbname     = "kindred_db";    // e.g., "sg_user_kindred_db"
+$username   = "kindreduser";    // e.g., "sg_user_kindred_user"
+$password   = "Lh1]5ff@r1$x"; // The password you created
 
 // --- Set Headers ---
 // This tells the browser that we are sending back JSON data, not a webpage.
